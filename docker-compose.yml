@@ -9,7 +9,7 @@ services:
   nginx:
     image: nginx:latest
     ports:
-      - "86:86"
+      - "88:88"
 
     depends_on:
       - backend
