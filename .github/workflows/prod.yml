@@ -1,4 +1,4 @@
-name: PROD Server Deploy  
+name: PROD Server Deploy
 on: [push]
 jobs:
   build:
