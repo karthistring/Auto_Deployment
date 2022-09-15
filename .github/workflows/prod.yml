@@ -39,7 +39,7 @@ jobs:
             context: ./
             file: ./Dockerfile
             push: true
-            tags: ${{ secrets.DOCKERHUB_USERNAME }}/auto_deploy:latest         
+            tags: ${{ secrets.DOCKERHUB_USERNAME }}/auto_deploy_test:latest         
  
       - name: Install SSH Key 
         uses: shimataro/ssh-key-action@v2
