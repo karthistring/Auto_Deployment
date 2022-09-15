@@ -3,9 +3,9 @@ version: "3"
 services:
   backend:
     image: stringconsultant/auto_deploy_test:latest
-    command: gunicorn docker_demo.wsgi --bind 0.0.0.0:8005
+    command: gunicorn docker_demo.wsgi --bind 0.0.0.0:7888
     ports:
-      - "8005:8005"
+      - "7888:7888"
   nginx:
     image: nginx:latest
     ports:
